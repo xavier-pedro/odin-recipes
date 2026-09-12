@@ -5,17 +5,25 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 
 .card-home{
     padding: 42px;
     background-color: #ECD2BA;
     border-radius: 32px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: end;
+    margin: 24px 0;
+    width: 100%;
+
 }
 
-.card-home div{
-    display: inline-block;
-    margin-top: -30px;    
+.card-home img{
+    margin-left: auto; 
 }
 
 .card-home h1{
@@ -24,4 +32,35 @@
 
 .card-home h3 {
     font-size: 32px;
+}
+
+.item-receita{
+    padding: 42px;
+    font-size: 42px;
+    margin-bottom: 24px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-flex;
+    border-radius: 32px;
+    width: 100%;
+    align-items: center;
+}
+
+.item-receita.um{
+    background-color: #BDECBA;
+}
+.item-receita.dois {
+    background-color: #BAECE9;
+}
+.item-receita.tres {
+    background-color: #ECBABB;
+}
+
+.item-receita img{
+    margin-left: auto;
+}
+
+.lista-receitas{
+    list-style: none;
 }
