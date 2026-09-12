@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
 body{
     max-width: 800px;
@@ -39,9 +44,6 @@ body{
     padding: 42px;
     font-size: 42px;
     margin-bottom: 24px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
     display: inline-flex;
     border-radius: 32px;
     width: 100%;
