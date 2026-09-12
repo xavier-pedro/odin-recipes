@@ -67,3 +67,10 @@ body{
 .lista-receitas{
     list-style: none;
 }
+
+.imagem-receita{
+    width: 100%;
+    height: 250px;
+    border-radius: 32px;
+    margin: 12px 0 24px;
+}
