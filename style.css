@@ -96,3 +96,9 @@ body{
 .card-receita h2{
     margin-bottom: 12px;
 }
+
+.voltar-inicio{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 12px;
+}
